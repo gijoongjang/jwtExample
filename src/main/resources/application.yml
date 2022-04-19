@@ -21,7 +21,7 @@ spring:
 
 jwt:
   header: Authorization
-  #HS512 ????? ???? 512bit, 64byte ??? secret key? ???? ?.
+  #HS512 알고리즘 사용하기 때문에 512bit, 즉 64byte 이상 secret key 사용해야 함.
   secret: c2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQK
   #Token expire time
   token-validity-in-seconds: 86400
