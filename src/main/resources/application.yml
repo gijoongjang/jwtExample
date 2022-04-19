@@ -26,6 +26,9 @@ jwt:
   #Token expire time
   token-validity-in-seconds: 86400
 
+server:
+  port: 8088
+
 logging:
   level:
     me.silvernine: DEBUG
